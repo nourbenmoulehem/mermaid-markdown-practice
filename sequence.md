@@ -1,6 +1,6 @@
 ## Mermaid Practice file
 
-'''
+'''mermaid
 sequenceDiagram
     actor Alice
     actor Bob
