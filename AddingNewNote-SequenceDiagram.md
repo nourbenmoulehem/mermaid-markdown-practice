@@ -4,9 +4,8 @@ sequenceDiagram
   participant browser
   participant server
 
-  user->>browser: write(NoteContent)
-  user->>browser: click-button-submit()
-  deactivate browser
+  user->browser: write(NoteContent)
+  user->browser: click-button-submit()
 
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
   activate server
