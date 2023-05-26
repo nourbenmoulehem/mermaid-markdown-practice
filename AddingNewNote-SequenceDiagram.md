@@ -12,7 +12,7 @@ sequenceDiagram
   server-->>browser: HTTP status code 302
   deactivate server
   
-  Note right of browser: The browser sends the note content and the date to the server, the server responds with HTTP status code 302 and request the browser to he server asks the browser to do a new HTTP GET request to the address defined in the header's Location
+  Note right of browser: The browser sends the note content and the date to the server, the server responds with HTTP status code 302 and asks the browser to do a new HTTP GET request to the address defined in the header's Location
   
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
   activate server
