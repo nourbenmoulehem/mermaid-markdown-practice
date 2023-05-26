@@ -1,8 +1,13 @@
 ```mermaid
   sequenceDiagram
+    actor user
     participant browser
     participant server
-
+    
+    user->>browser: write(NoteContent)
+    user->>browser: click-button-submit()
+    deactivate browser
+    
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
