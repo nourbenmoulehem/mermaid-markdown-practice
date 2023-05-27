@@ -2,9 +2,7 @@
 sequenceDiagram
   autonumber
 
-  actor user
-  participant browser
-  participant server
+  
 
   user->>browser: write(NoteContent)
   user->>browser: click-button-submit()
