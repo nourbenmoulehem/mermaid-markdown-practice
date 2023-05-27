@@ -1,6 +1,5 @@
 ```mermaid
 sequenceDiagram
-  autonumber
 
   
 
