@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-autonumber
+  autonumber
 
   actor user
   participant browser
